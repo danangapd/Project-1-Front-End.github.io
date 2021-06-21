@@ -5,3 +5,4 @@ Catatan :
 2. Project ini dibuat dengan menerapkan hasil proses pelatihan yang saya ikuti pada program pelatihan Digital Talent Scholarsip yang diselenggarakan oleh Kementrian Komunikasi dan Informatika bersama Progate.com
 3. Konsep website dengan tema makanan khas Nusantara.
 4. Software pendukung : Visual Studio Code.
+5. URL: danangapd.github.io/ProjectB19.github.io/
