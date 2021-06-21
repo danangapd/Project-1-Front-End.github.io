@@ -1,4 +1,4 @@
-# ProjectB19.github.io
+# Project-1-Front-End.github.io
 
 Catatan :
 1. ProjectB19 merupakan project membuat halaman website dengan menerapkan bahasa pemrogaman HTML & CSS.
