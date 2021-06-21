@@ -1,0 +1,42 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  html{
+        font-size: 55%;
+    }
+
+    
+    .header-right .nav{
+        display: none;
+    }
+
+    .header-right #bar{
+        display: block;      
+    }
+    .main-wrapper .content .content-item{
+      display: contents;
+    }
+}
+
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right .nav{
+    display: none;
+  }
+  
+  .header-right #bar{
+    display: block;
+  }
+  
+  span .menu-icon {
+    display: block;
+  }
+  
+  .team .footer-box{
+    flex-wrap: wrap;
+  }
+  .main-wrapper .content .content-item{
+    display: contents;
+  }
+}

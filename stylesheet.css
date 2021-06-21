@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div, button {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+  overflow-x: hidden;
+
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:#333;
+}
+
+section{
+  min-height: 100vh;
+  padding:1rem 10%;
+  padding-top: 5.5rem;
+  background-color:#fdfdfd;
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: url(../B19/image/home.png) no-repeat;
+  background-size: cover;
+}
+
+.home .image{
+  flex:1 1 20rem;
+}
+
+.home .image img{
+  width:100%;
+}
+
+
+
+.top-wrapper {
+  flex:1 1 40rem;
+  padding:2.3rem;
+}
+
+.top-wrapper p {
+  font-size: 1.12rem;
+  color:#666;
+  margin-bottom: 20px;
+
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.btn-home{
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background: #F59C24;
+  color: #fdfdfd;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+}
+
+.btn-home:hover{
+  transform: scale(1.1);
+}
+
+
+/*Header*/
+header {
+  width: 100%;
+  top:0; left:0;
+  background-color: #fff;
+  padding:0.5rem;
+  position: fixed;
+  z-index: 999;
+  opacity: 80%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.header-left {
+  float: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  overflow: hidden;
+  line-height: 0px;
+}
+
+.logo span {
+  color: #F59C24;
+}
+
+.header-right {
+  float: right;
+  background-color: #fff;
+  overflow: hidden;
+  font-size: 1.2rem;
+  margin-right: 3rem;
+}
+
+.header-right a:hover {
+  background-color: rgba(84, 85, 84, 0.2);
+}
+
+.header-right #bar{
+  display: none;
+}
+
+.header-right a {
+  float: left;
+  display: block;
+  line-height: 60px;
+  padding: 0 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+span .menu-icon {
+  color: black;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+/*Header End*/
+
+/*Section*/
+.main-wrapper {
+  margin:auto;
+  position: relative;
+  box-sizing:content-box;
+}
+.content{
+  display:grid;
+  grid-template-columns: 50% auto;
+  padding: 1em 1em;
+  margin: auto;
+}
+.content-item{
+  float: left;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.content-item img{
+  width: 80%;
+  position: relative;
+  margin-left: 25px;
+  margin-right: auto;
+}
+.text{
+  margin:auto 20px;
+}
+.content-item .text p{
+  margin-bottom: 25px;
+  text-align: justify;
+}
+.text h2{
+  margin-bottom: 15px;
+}
+hr{
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray;
+  opacity: 20%;
+}
+
+/*End Section*/
+
+/*FOOTER*/
+footer {
+  background-color:#fdfdfd;
+  padding: 10px;
+  color: #333;
+  opacity: 90%;
+}
+
+.input-group input[type=email], .input-group-btn button{
+  font-size: 14px;
+  color:#333;
+  font-weight: 600;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+  border:.16rem solid #F8E4EB;
+
+}
+
+.input-group-btn button{
+  background-color: #F59C24;  
+  border-radius: none;
+}
+
+.input-group-btn button:hover{
+  background-color: #fdfdfd;  
+  border:.2rem solid #F59C24;
+}
+
+footer .credit{
+  font-size: 1.2rem;
+  text-align: center;
+  padding:0.2rem;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  color:#333;
+}
+
+.team{
+  background-color: #FEFAF1;
+}
+
+.team .footer-box{
+  display: flex;
+
+}
+
+.team .footer-box .footer-content{
+  margin:2rem;
+  flex:1 1 25rem;
+}
+
+.footer-content li {
+  list-style: none;
+  padding-top:1rem;
+}
+
+.footer-content li a:hover {
+  cursor: pointer;
+  color: #F59C24;
+}
+
+
+.footer-content p {
+  display: inline-block;
+  text-align: justify;
+  padding:1rem 0;
+}
+
+
+.btn-playstore img {
+  height: 50px;
+  padding-top: 1%;
+  display: block;
+}
+/*Footer End*/
